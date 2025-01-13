@@ -1,0 +1,13 @@
+#ballong{
+    font-size:30px;
+    align-self:center;
+}
+
+#box{
+    width: 99vw;
+    height: 99vh;
+    background-color: antiquewhite;
+    display:flex;
+    justify-content: center;
+    
+}

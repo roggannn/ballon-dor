@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Ballon 'dor</title>
+</head>
+<body>
+    <div id="box">
+        <h1 id="ballong" onclick="ballongSizeIncrease();">🎈</h1>
+        <script>
+            let increase = 1.1;
+            let size = 30;
+            let ballon = document.getElementById("ballong");
+    
+            function ballongSizeIncrease() {
+                size *= increase;
+                
+                if (size <= 400)
+                {
+                    ballon.style.fontSize = size + "px";
+                }
+                else{
+                    ballon.innerText = "💥";
+                    ballon.
+                    ballon.onclick = "";
+                }
+                console.log("Clicked");
+                
+            }
+        </script>
+    </div>
+</body>
+</html>
